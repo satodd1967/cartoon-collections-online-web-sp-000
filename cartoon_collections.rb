@@ -21,8 +21,8 @@ def find_the_cheese(array)
   first_cheese = []
   array.find do |cheese|
    first_cheese << cheese_types.include?(cheese)
+   first_cheese
   end
-  first_cheese
 end
 
 snacks = ["crackers", "gouda", "thyme"]
