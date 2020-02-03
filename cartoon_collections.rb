@@ -23,3 +23,4 @@ def find_the_cheese(array)
   end
 end
 
+snacks = ["crackers", "gouda", "thyme"]
