@@ -22,6 +22,7 @@ def find_the_cheese(array)
   array.index do |cheese|
    fist_cheese << cheese_types.include?(cheese)
   end
+  first_cheese
 end
 
 snacks = ["crackers", "gouda", "thyme"]
