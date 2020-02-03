@@ -21,7 +21,6 @@ def find_the_cheese(array)
   array.index do |cheese|
     cheese_types.include?(cheese)
   end
-  puts array[find_the_cheese(array)]
 end
 
 snacks = ["crackers", "gouda", "thyme"]
