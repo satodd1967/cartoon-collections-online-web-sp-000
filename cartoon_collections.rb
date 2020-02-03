@@ -25,3 +25,4 @@ end
 
 snacks = ["crackers", "gouda", "thyme"]
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+ingredients = ["garlic", "rosemary", "bread"]
