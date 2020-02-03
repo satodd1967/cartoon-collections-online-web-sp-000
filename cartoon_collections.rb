@@ -21,7 +21,6 @@ def find_the_cheese(array)
   array.select do |cheese|
     cheese_types.include?(cheese)
   end
-  first_cheese
 end
 
 snacks = ["crackers", "gouda", "thyme"]
